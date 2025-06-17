@@ -1,0 +1,20 @@
+1. Describe your experience using Ansible, including specific use cases and configurations you've managed in projects.
+2. What are Ansible Roles and how are they used to structure Ansible content?
+3. Explain Ansible Handlers and how they are triggered within a playbook.
+4. What is the Ansible `register` keyword used for and how does it work in tasks?
+5. What are Ansible Ad-Hoc commands and when would you use them? Provide an example, perhaps for running a loop.
+6. What is an Ansible Playbook, how does it work, and can you provide an example of a playbook you have written and explain it?
+7. Explain Ansible Inventory. What are the different types of inventory and how do you maintain them?
+8. How can you call or import one Ansible Playbook inside another?
+9. How do you use an Ansible Ad-Hoc command to ping a server?
+10. What are the key differences between Ansible and Chef?
+11. Can you describe a scenario where Chef might be preferred over Ansible?
+12. What are Ansible Tower (or AWX) and Ansible Galaxy, and what are their purposes?
+13. On approximately how many servers have you used Ansible for configuration management simultaneously?
+14. How can you pass the output of one Ansible Playbook as an input to another?
+15. How can you include specific tasks from one Ansible Playbook into another?
+16. How can you pass or copy data (output) from one Ansible role to another?
+17. Explain the typical steps involved in setting up and configuring an Ansible control node.
+18. What are Ansible plugins, and do they typically have specific file extensions (e.g., for custom modules, filters)?
+19. Write an example Ansible Playbook to manage a service and install necessary modules.
+20. How can you copy files from a remote managed node to the local Ansible control machine?
