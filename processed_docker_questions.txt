@@ -1,0 +1,36 @@
+1. Explain the structure of a Dockerfile and describe common directives like FROM, RUN, COPY, ADD, EXPOSE, CMD, and ENTRYPOINT. Provide an example Dockerfile, perhaps for installing Java, and explain each command.
+2. What is the difference between CMD and ENTRYPOINT in a Dockerfile? How do they interact, and in what scenarios would you use each?
+3. What is the difference between the ADD and COPY instructions in a Dockerfile?
+4. What happens if you press CTRL+C during a `docker build -t <tag> .` command execution?
+5. If a Docker image is too large (e.g., 2GB), what strategies would you use to reduce its size? Mention Dockerfile best practices for optimization.
+6. What is the difference between a Docker image and a Docker container? Explain the concept of Docker layers within an image.
+7. What happens if you specify multiple ENTRYPOINT instructions in a Dockerfile? Which one takes effect?
+8. By default, as which user do commands execute inside a Docker container if not specified otherwise in the Dockerfile?
+9. What is the Docker socket (e.g., `/var/run/docker.sock`) and what is it used for?
+10. What is a container runtime in the context of Docker?
+11. How do you persist data in Docker containers? Explain Docker volumes and how to mount a host filesystem into a container.
+12. What are Docker multi-stage builds? Explain their benefits and provide an example of a multi-stage Dockerfile.
+13. Explain port mapping in Docker. What is the difference between EXPOSE in a Dockerfile and publishing a port with the `-p` flag during `docker run`?
+14. What is the difference between the RUN instruction and the CMD instruction in a Dockerfile?
+15. How do you troubleshoot a failing or crashed Docker container? How can you collect logs, especially if the container has terminated and no volume was attached for logging?
+16. What are common security measures for Docker images? How do you scan images for vulnerabilities, and what tools or mechanisms can be used?
+17. What are Docker Swarm and Docker Compose? What are their primary use cases and differences?
+18. What is the command to build a Docker image from a Dockerfile?
+19. Explain Linux namespaces and cgroups and their role in Docker containerization.
+20. How do you share Docker images with other users or systems? Explain the role of Docker Hub, Docker Trusted Registry (DTR), and custom/private registries.
+21. How do you manage versioning for Dockerfiles or the images built from them?
+22. What are the key differences between Docker (specifically Docker Swarm) and Kubernetes? How might they be used together in a production environment?
+23. What are some general best practices for writing efficient and maintainable Dockerfiles?
+24. Explain Docker image layers in more detail. Which layer is typically read-write when a container is running?
+25. What types of applications (e.g., Java-based, Python-based, databases) have you containerized using Docker? (This question is typically for interviewees to share their experience).
+26. What are the main differences between Virtual Machines (VMs) and Docker containers?
+27. Why might one choose to use Docker images instead of AWS AMIs for deploying applications, or how do they differ in use case?
+28. Explain basic Docker networking concepts. What are the default network types available (e.g., bridge, host, none)?
+29. What is the `docker ps` command used for and what are some common options?
+30. What are services in Docker Swarm mode?
+31. What is containerization, and what are its main benefits?
+32. How do you manage user permissions within a Dockerfile? How can you run commands as a specific user, including root, and what are the best practices regarding user privileges?
+33. How can you inspect or find background processes running inside a Docker container?
+34. What is the difference between stateful and stateless containers? Provide a use case for each.
+35. How can you copy a Docker image from one machine to another if direct access to a registry is not available or desired?
+36. What is a basic Docker command to create and run a container from an image (e.g., from 'ubuntu' image)?
